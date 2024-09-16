@@ -27,5 +27,28 @@ fn main() {
         None => println!("There is no third element."),
     }
 
-    // Iterating Over The Values In a Vector
+    // Iterating Over the Values in a Vector
+    let a = vec![100, 32, 44];
+    for i in &a {
+        println!("{i}");
+    }
+
+    // Iterating Over the Mutable Values in a Vector
+    let mut x = vec![100, 32, 44];
+    for i in &mut x {
+        *i += 50;
+    }
+
+    // Using an Enum to Store Multiple Types
+    enum Spreadsheetcell {
+        Int(i32),
+        Float(f64),
+        Text(String),
+    }
+
+    let row = vec![
+        Spreadsheetcell::Int(3),
+        Spreadsheetcell::Text(String::from("Hello")),
+        Spreadsheetcell::Float(10.12),
+    ];
 }
