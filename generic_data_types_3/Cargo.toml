@@ -1,0 +1,6 @@
+[package]
+name = "generic_data_types_3"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
