@@ -1,0 +1,1 @@
+/home/yhwach/repos/rustlearn/traitspractice_proj/target/debug/traitspractice_proj: /home/yhwach/repos/rustlearn/traitspractice_proj/src/aggregator.rs /home/yhwach/repos/rustlearn/traitspractice_proj/src/main.rs
